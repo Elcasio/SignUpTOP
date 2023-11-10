@@ -34,8 +34,12 @@ main{
   
 }
 #logoContainer h1{
-  
   margin: auto 0;
+}
+#logoContainer img{
+  height: 3rem;
+  width: 3rem;
+  border-radius: 0.2rem;
 }
 #right{
   width: auto;
