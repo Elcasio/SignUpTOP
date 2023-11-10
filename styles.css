@@ -82,7 +82,7 @@ input:valid{
 input:user-invalid{
   border:2px solid red
 }
-input:active{
+input:focus{
   border:2px solid #F09F43 !important;
   box-shadow: #F09F43 1px 1px 1px;
 }
