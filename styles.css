@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+  margin:0;
+  padding: 0;
+}
+body{
+  width: 100%;
+}
+main{
+  display: flex;
+  height:100vh;
+  width: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#left{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  color: white;
+  width: 60%;
+  background: center/cover no-repeat url(./images/knowusbglow.jpg);
+  text-align: center;
+}
+#logoContainer{
+  background-color:rgba(0, 0, 0, 0.6);
+  padding: 2rem;
+  position:relative;
+  top:10rem;
+  width:100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  
+}
+#logoContainer h1{
+  
+  margin: auto 0;
+}
+#right{
+  width: auto;
+  background-color:#050505;
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  color:white;
+}
+#textContainer>p{
+  font-weight: 500;
+  
+  padding: 1rem 1rem 0 1rem;
+}
+em{
+  color:#F09F43;
+  font-weight: 600;
+}
+form{
+  color: #F09F43;
+  font-weight: 800;
+}
+fieldset{
+  padding: 1rem;
+  border:none;
+  box-shadow:0px 1px 3px  #f09f4375;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+}
+.inputContainer{
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 1rem;
+}
+input{
+  height: 2rem;
+  border-radius: 10px;
+  border: #F09F43 solid 2px;
+}
+input:valid{
+  border:2px rgb(32, 197, 32) solid
+}
+input:user-invalid{
+  border:2px solid red
+}
+input:active{
+  border:2px solid #F09F43 !important;
+  box-shadow: #F09F43 1px 1px 1px;
+}
+button{
+  padding:1rem;
+  background-color: #F09F43;
+  border-radius:10px;
+  font-size: 1rem;
+  font-weight: 800;
+  margin: 1rem;
+}
+#right a{
+  color: #F09F43 !important;
+  text-decoration: none;
+  font-weight: 700;
+}
+

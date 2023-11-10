@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Sign-Up</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+   
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+    <section id='left'>
+      <div id='logoContainer'>
+        <img src="images/logo.png" alt="logo of an app">
+        <h1>GoodTrip</h1>
+      </div>
+      <p>img thanks to someone</p>
+    </section>
+    <section id='right'>
+      <div id="textContainer">  
+        <p>
+        This is not a real online service! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus, commodi!</p>
+        <p>Sign up <em>now</em> to get started.</p>
+        <p>You <em>know</em> you want to.</p>
+      </div>
+      <form action="POST">
+      <fieldset>
+        <legend>Let's do it!</legend>
+        <div class='inputContainer'>
+          <label for="user_name">First Name</label>
+          <input type="text" id="name" name="user_name" required>
+        </div>
+        <div class='inputContainer'>
+          <label for="user_surname"Surname>Second Name</label>
+          <input type="text" id="user_surname" name="user_surname" required>
+        </div>
+        <div class='inputContainer'>
+          <label for="user_mail">Email</label>
+          <input type="mail" id="user_mail" name="user_mail" required>
+        </div>
+        <div class='inputContainer'>
+          <label for="user_phoneNumber">Phone Number</label>
+          <input type="number" id="user_phoneNumber" name="user_phoneNumber" min='8' required>
+        </div>
+        <div class='inputContainer'>
+          <label for="user_password">Password</label>
+          <input type="password" id="user_password" name="user_password" required>
+        </div>
+        <div class='inputContainer'>
+          <label for="user_passwordCheck">Confirm Password</label>
+          <input type="password" id="user_passwordCheck" name="user_passwordCheck" required>
+        </div>        
+      </fieldset>
+      <button type="submit">Create Account</button>
+      </form>
+      <p>Already have an account? <a href="#">Log in</a> </p>
+    </section>
+  </main>
+  </body>
+</html>
